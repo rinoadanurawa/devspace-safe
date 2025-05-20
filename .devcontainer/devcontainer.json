@@ -1,0 +1,14 @@
+{
+  "name": "Safe Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python"
+  ],
+  "postCreateCommand": "echo 'Devcontainer ready!'",
+  "remoteUser": "vscode"
+}
